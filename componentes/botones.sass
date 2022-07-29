@@ -1,0 +1,25 @@
+.botones
+  display: flex
+  flex-direction: row
+  width: 25px  
+  padding: 10px 20px
+  
+@mixin style-choose($name, $property1, $value1, $property2, $value2, $property3, $value3,$property4, $value4, $property5, $value5, $property6, $value6)
+  .style-#{$name}
+    @if $property1 == paddind and $value1
+      #{$property1}: $value1
+    @if $property2 == margin and $value2
+      #{$property2}: $value2
+    @if $property3 == font-size and $value3 
+      #{$property3}: $value3 
+    @if $property4 == background and $value4
+      #{$property4}: $value4
+    @if $property5 == color and $value5
+      #{$property5}: $value5
+    @if $property6 == font-weight and $value6 
+      #{$property6}: $value6
+    
+         
+@include style-choose("boton1", padding, 50px, margin, 20px, font-size, 20px, background, rgb(229, 105, 77), color,#5d1d06, font-weight, 18px)
+@include style-choose("boton2", padding, 50px, margin, 20px, font-size, 20px, background, rgb(229, 105, 77), color, #5d1d06, font-weight, 25px)
+@include style-choose("boton3", padding, 50px, margin, 20px, font-size, 20px,background, rgb(229, 105, 77), color, #5d1d06, font-weight, 35px)

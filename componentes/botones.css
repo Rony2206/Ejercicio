@@ -1,0 +1,30 @@
+.botones {
+  display: flex;
+  flex-direction: row;
+  width: 25px;
+  padding: 10px 20px;
+}
+
+.style-boton1 {
+  margin: 20px;
+  font-size: 20px;
+  background: rgb(229, 105, 77);
+  color: #5d1d06;
+  font-weight: 18px;
+}
+
+.style-boton2 {
+  margin: 20px;
+  font-size: 20px;
+  background: rgb(229, 105, 77);
+  color: #5d1d06;
+  font-weight: 25px;
+}
+
+.style-boton3 {
+  margin: 20px;
+  font-size: 20px;
+  background: rgb(229, 105, 77);
+  color: #5d1d06;
+  font-weight: 35px;
+}/*# sourceMappingURL=botones.css.map */

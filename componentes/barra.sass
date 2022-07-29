@@ -1,0 +1,27 @@
+
+.configuracion-busqueda
+    grid-area: busqueda
+    display: flex
+    min-width: 10%
+   
+    
+
+@mixin config-choose($name, $property1, $value1, $property2, $value2, $property3, $value3, $property4, $value4, $property5, $value5, $property6, $value6, $property7, $value7)
+    .config-#{$name}
+        @if $property1 == min-width and $value1
+            #{$property1}: $value1
+        @if $property2 == padding and $value2
+            #{$property2}: $value2
+        @if $property3 == height and $value3
+            #{$property3}: $value3
+        @if $property4 == line-height and $value4
+            #{$property4}: $value4
+        @if $property5 == font-size and $value5
+            #{$property5}: $value5
+        @if $property6 == font-family and $value6
+            #{$property6}: $value6
+        @if $property7 == width and $value7
+            #{$property7}: $value7
+        
+
+@include config-choose("barra", min-width, 30%, padding, 15px, height, 60px,line-height, 25px, font-size, 20px, font-family, arial, width, 50px)

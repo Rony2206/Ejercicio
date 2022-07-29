@@ -1,0 +1,15 @@
+.configuracion-busqueda {
+  grid-area: busqueda;
+  display: flex;
+  min-width: 10%;
+}
+
+.config-barra {
+  min-width: 30%;
+  padding: 15px;
+  height: 60px;
+  line-height: 25px;
+  font-size: 20px;
+  font-family: arial;
+  width: 50px;
+}/*# sourceMappingURL=barra.css.map */

@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif ;
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+
+.caja .main{
+    grid-area: main;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    height: 150px;
+    padding: 30px;
+    margin: none;
+    background: radial-gradient(circle, rgb(229, 105, 77) 100%, rgb(229, 105, 77) 100%, rgb(229, 105, 77) 100%);
+}
+
+.caja .main .logo {
+    grid-area: logo;
+    display: flex;
+    align-items: center;
+    width: 25px;
+    padding: 20px;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+}
+
+.caja .main .contenedor-logo .logo {
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(77, 36, 11);
+    font-size: 60px;
+}
+
+.caja .main .contenedor-logo .logo .fa-solid {
+    margin: 20px;
+    color: rgb(77, 36, 11);
+    font-size:  80px;
+}
+
+/*barra de navegacion*/
+.caja .busqueda {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    transform: translate(-10%, -40%);
+}
+
+.caja .busqueda input.src{
+    padding: 9px 10px 9px 32px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 15px;
+    color: #444;
+    border: 3px solid #5d1d06;
+    width: 300px;
+}
+
+/*botones*/
+
+.caja .botones .style-boton1 {
+    display: flex;
+    flex-direction: column-reverse;
+    font-family: 'Courier New', Courier, monospace ;
+    color: #5d1d06;
+    padding: 10px;
+    margin:10px;
+    font-size: 15px;
+    border: none;
+} 
+.caja .botones .style-boton1 .uno {
+    color: #5d1d06;
+}
+
+.caja .botones .style-boton1 a:hover {
+    color: #5d1d06;
+    background-color: brown;
+}
+
+.caja .botones .style-boton2 a:hover {
+    color: #5d1d06;
+    background-color: brown;
+}
+
+.caja .botones .style-boton3 a:hover {
+    color: #5d1d06;
+    background-color: brown;
+}
+
+.caja .botones .style-boton1 .fa-solid {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.caja .botones .style-boton2 {
+    display: flex;
+    flex-direction: column-reverse;
+    font-family: 'Courier New', Courier, monospace;
+    color: #5d1d06;
+    padding: 10px;
+    margin:10px;
+    font-size: 15px;
+    border: none;
+}
+
+.caja .botones .style-boton2 .dos {
+    color: #5d1d06;
+}
+
+.caja .style-boton2 .fa-solid {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.caja .botones .style-boton3 {
+    display: flex;
+    flex-direction: column-reverse;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin:10px;
+    font-size: 15px;
+    border: none;
+}
+
+.caja .botones .style-boton3 .tres {
+    color: #5d1d06;
+}
+
+.caja .style-boton3 .fa-solid {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+/*Secciones*/
+
+.caja .secciones {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 20px;
+    height: 900px;
+    background: radial-gradient(circle, rgba(114, 140, 97, 0.931) 0%, rgb(88, 43, 12) 0%, rgb(113, 49, 22) 100%);
+}
+
+.caja .secciones .mascotas {
+    display: flex;
+    flex-direction: column-reverse;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: bisque;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+}
+
+
+.caja .secciones .medic {
+    display: flex;
+    flex-direction: column-reverse;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: bisque;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+}
+
+.caja .secciones .acces {
+    display: flex;
+    flex-direction: column-reverse;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: bisque;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
